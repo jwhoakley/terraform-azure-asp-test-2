@@ -1,3 +1,3 @@
 output "url" {
-  value = "${azurerm_service_plan.name}.azurewebsites.net"
+  value = "${azurerm_service_plan.appserviceplan.name}.azurewebsites.net"
 }
